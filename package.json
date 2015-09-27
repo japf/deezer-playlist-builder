@@ -1,0 +1,32 @@
+{
+  "name": "deezer-playlist-builder",
+  "version": "1.0.0",
+  "description": "A CLI to create Deezer playlists from text files",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app --inputFile songToImport.txt --playlistName MyPlaylist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/japf/deezer-playlist-builder.git"
+  },
+  "keywords": [
+    "deezer",
+    "cli",
+    "music",
+    "playlist"
+  ],
+  "author": "Jeremy Alles",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/japf/deezer-playlist-builder/issues"
+  },
+  "homepage": "https://github.com/japf/deezer-playlist-builder#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "minimist": "^1.2.0",
+    "open": "0.0.5",
+    "prompt": "^0.2.14",
+    "request": "^2.64.0"
+  }
+}
