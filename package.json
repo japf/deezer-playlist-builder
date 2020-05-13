@@ -25,7 +25,7 @@
   "dependencies": {
     "express": "^4.13.3",
     "minimist": "^1.2.0",
-    "open": "0.0.5",
+    "open": "7.0.3",
     "prompt": "^0.2.14",
     "request": "^2.64.0"
   }
